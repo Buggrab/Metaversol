@@ -352,7 +352,7 @@ a {
     top: 100%;
     z-index: 1;
     transition: 0.4s ease-in-out;
-}
+  }
   .expanse-object {
     display: none;
   }
@@ -399,6 +399,9 @@ a {
   .RoadMap-cta {
     background-size: 100%;
     background-position: 100% 290px;
+  }
+  .metaversol-pass-page {
+    background-size: cover;
   }
 }
 @media only screen and (max-width: 375.5px) {
