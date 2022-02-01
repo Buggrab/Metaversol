@@ -13,8 +13,14 @@ export default function Home() {
       </Head>
       <Header />
 
-      <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12 xl:pb-40 lg:pb-32 md:pb-60 pb-64 glob-cta'>
-        <div className='max-w-7xl mx-auto px-4'>
+      <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12 glob-cta'>
+        <div className='top-star-object'>
+          <img src='/meta/Metaversol Icon_LightPurple_OK 1.png' alt='start' />
+        </div>
+        <div className='bottom-star-object'>
+          <img src='/meta/start-first-section.png' alt='start-first-section.png' />
+        </div>
+        <div className='position-relative max-w-7xl mx-auto px-4'>
           <div className="grid grid-cols-12 xl:gap-12 lg:gap-8 gap-4">
             <div className="md:col-span-5 col-span-12">
               <h1 className='xl:text-6xl lg:text-6xl md:text-4xl text-4xl font-bold text-white lg:mb-12 mb-8'>
@@ -33,26 +39,36 @@ export default function Home() {
               </div>
             </div>
             <div className="md:col-span-7 col-span-12">
-              <div className='max-w-xl text-left w-full'>
-                <p className='text-white xl:text-xl lg:text-xl md:text-xl text-md lg:mb-10 mb-6'>
+              <div className='text-left w-full'>
+               <div className='max-w-xl text-left w-full'>
+               <p className='text-white xl:text-xl lg:text-xl md:text-xl text-md lg:mb-4 mb-2'>
                   The Expanse is comprised entirely of the projects and businesses that we have brought onboard  our platform.
                 </p>
+               </div>
+
+                <div>
+                  <img src='/assets/images/ChainCta.png' alt='ChainCta' />
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </section>
 
       <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12'>
+        <div className='expanse-object-1'>
+          <img src='/meta/planet-5.png' alt='planet-5' />
+        </div>
         <div className='max-w-7xl mx-auto px-4'>
           <div className='lg:mb-24 mb-8'>
-            <h2 className='xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
+            <h2 className='position-relative xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
               WELCOME TO THE EXPANSE
             </h2>
           </div>
           <div className="flex justify-around lg:flex-nowrap flex-wrap lg:gap-12 gap-4">
             <div>
-              <img className='max-w-2xl w-full'  src='/assets/images/welcomeBanner.png' alt='welcomeBanner' />
+              <img className='position-relative max-w-2xl w-full' src='/assets/images/welcomeBanner.png' alt='welcomeBanner' />
             </div>
             <div>
               <div className='max-w-xl text-left w-full'>
@@ -73,9 +89,15 @@ export default function Home() {
       </section>
 
       <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12'>
-        <div className='max-w-7xl mx-auto px-4'>
-          <div className='lg:mb-24 mb-8'>
-            <h2 className='xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
+        <div className='expanse-object'>
+          <img src='/meta/4Planet.png' alt='4Planet' />
+        </div>
+        <div className='create-world-object-1'>
+          <img src='/meta/5star.png' alt='planet-5' />
+        </div>
+        <div className='max-w-7xl mx-auto px-4 position-relative'>
+          <div className='lg:mb-4 mb-4'>
+            <h2 className='special-heading xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
               CREATE YOUR WORLD
             </h2>
           </div>
@@ -113,10 +135,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12'>
-        <div className='max-w-7xl mx-auto px-4'>
+      <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12 pb-16 galaxy-bg'>
+        <div className='expanse-object-mini'>
+          <img src='/meta/shallow-planet.png' alt='planet-5' />
+        </div>
+        <div className='max-w-7xl mx-auto px-4 position-relative'>
           <div className='lg:mb-24 mb-8'>
-            <h2 className='xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
+            <h2 className='special-heading xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
               METAVERSOL PASS
             </h2>
           </div>
@@ -150,13 +175,22 @@ export default function Home() {
       </section>
 
       <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12'>
-        <div className='max-w-7xl mx-auto px-4'>
+        <div className='founder-object-2'>
+          <img src='/meta/planet-5.png' alt='planet-5' />
+        </div>
+        <div className='founder-object-1'>
+          <img src='/meta/5star.png' alt='5star' />
+        </div>
+        <div className='founder-object-3'>
+          <img src='/meta/earth-planet.png' alt='earth-planet' />
+        </div>
+        <div className='max-w-7xl mx-auto md:px-4 px-8 position-relative'>
           <div className='lg:mb-24 mb-8'>
-            <h2 className='xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
+            <h2 className='special-heading xl:text-5xl lg:text-4xl text-3xl font-bold text-white text-center'>
               MEET THE FOUNDERS
             </h2>
           </div>
-          <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-12 gap-4 items-center ">
+          <div className="founder-cards grid md:grid-cols-2 grid-cols-1 lg:gap-12 gap-4 items-center ">
             <div className='flex justify-center'>
               <div className=' border-purple bg-blue-10 w-102 p-11 rounded-3xl border-4'>
                 <div className='flex justify-center flex-col items-center mb-8'>

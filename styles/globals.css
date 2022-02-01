@@ -8,8 +8,123 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+section {
+  position: relative;
+}
+.special-heading {
+  width: 100%;
+}
+.position-relative {
+  position: relative;
+  z-index: 9;
+}
+.top-star-object {
+  transition: 0.4s ease-in-out;
+  right: 16%;
+  top: -3%;
+  height: 205px;
+  position: absolute;
+  width: 100%;
+  max-width: 190px;
+  z-index: 1;
+}
+.expanse-object-1 {
+  transition: 0.4s ease-in-out;
+  right: 5%;
+  top: 21%;
+  height: 108px;
+  position: absolute;
+  width: 100%;
+  max-width: 190px;
+  z-index: 1;
+}
+.create-world-object-1 {
+  transition: 0.4s ease-in-out;
+  right: 20%;
+  top: 19%;
+  height: 108px;
+  position: absolute;
+  width: 100%;
+  max-width: 111px;
+  z-index: 1;
+}
+.founder-object-1 {
+  transition: 0.4s ease-in-out;
+  left: 5%;
+  top: 22%;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  max-width: 106px;
+  z-index: 1;
+}
+.founder-object-2 {
+  transition: 0.4s ease-in-out;
+  right: 5%;
+  top: 26%;
+  height: 131px;
+  position: absolute;
+  width: 100%;
+  max-width: 250px;
+  z-index: 1;
+}
+.founder-object-3 {
+  transition: 0.4s ease-in-out;
+  left: 5%;
+  bottom: -15%;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  max-width: 106px;
+  z-index: 1;
+}
+
+.footer-object-2 {
+  transition: 0.4s ease-in-out;
+  right: 5%;
+  top: 5%;
+  height: 131px;
+  position: absolute;
+  width: 100%;
+  max-width: 100px;
+  z-index: 1;
+}
+.bottom-star-object {
+  height: 127px;
+  position: absolute;
+  width: 100%;
+  max-width: 165px;
+  transform: translate(-50%, -50%);
+  left: 30%;
+  top: 70%;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
+.expanse-object {
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 10%;
+  top: 18%;
+  z-index: 1;
+  width: 100%;
+  max-width: 250px;
+}
+.expanse-object-mini {
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 10%;
+  top: 28%;
+  z-index: 1;
+}
+.galaxy-bg {
+  background: url("/assets/images/galaxy-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .homepage {
-  background: url("/assets/images/body-bg.jpg");
+  background: url("/assets/images/body-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -85,12 +200,14 @@ a {
   height: 45.51px;
   padding: 10px 25px;
 }
-.glob-cta {
+/* .glob-cta {
   background: url("/assets/images/ChainCta.png");
   background-repeat: no-repeat;
   background-size: 690px;
   background-position: 88% 146px;
-}
+  z-index: 9;
+  position: relative;
+} */
 .service-cta {
   background: url("/assets/images/glob-Cta.png");
   background-repeat: no-repeat;
@@ -108,10 +225,10 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .glob-cta {
+  /* .glob-cta {
     background-size: 490px;
     background-position: 88% 140px;
-  }
+  } */
   .service-cta {
     background-size: 798px;
     background-position: 100% 235px;
@@ -122,18 +239,82 @@ a {
   }
 }
 @media only screen and (max-width: 768.5px) {
-.homepage {
-  background: url("/assets/images/mob-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .top-star-object {
+    transition: 0.4s ease-in-out;
+    right: 14%;
+    top: 0%;
+    height: 95px;
+    width: 100%;
+    max-width: 100px;
+  }
+  .create-world-object-1 {
+    transition: 0.4s ease-in-out;
+    right: 6%;
+    top: 14%;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    max-width: 90px;
+    z-index: 1;
+  }
+  .bottom-star-object {
+    height: 127px;
+    position: absolute;
+    width: 100%;
+    max-width: 111px;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 70%;
+    z-index: 1;
+    transition: 0.4s ease-in-out;
+  }
+  .expanse-object {
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 15%;
+    top: 9%;
+    z-index: 1;
+    width: 100%;
+    max-width: 115px;
+  }
+  .expanse-object-mini {
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 12%;
+    top: 12%;
+    z-index: 1;
+    width: 100%;
+    max-width: 80px;
+  }
+  .founder-object-2 {
+    transition: 0.4s ease-in-out;
+    right: 2%;
+    top: 13%;
+    height: 131px;
+    position: absolute;
+    width: 100%;
+    max-width: 144px;
+    z-index: 1;
+  }
+  .founder-object-1 {
+    transition: 0.4s ease-in-out;
+    left: 5%;
+    top: 8%;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    max-width: 80px;
+    z-index: 1;
+  }
   .service-cta-title {
     width: 100%;
   }
-  .glob-cta {
+  /* .glob-cta {
     background-size: 412px;
     background-position: 89% 187px;
-  }
+  } */
   .btn-alpha {
     width: inherit;
     height: 45.51px;
@@ -149,9 +330,67 @@ a {
   }
 }
 @media only screen and (max-width: 525.5px) {
-  .glob-cta {
-    background-size: 430px;
-    background-position: 0 230px;
+  .founder-cards img {
+    max-width: 120px;
+    width: 100%;
+  }
+  .top-star-object {
+    transition: 0.4s ease-in-out;
+    right: 6%;
+    top: -5%;
+    height: 89px;
+    width: 100%;
+    max-width: 90px;
+  }
+  .bottom-star-object {
+    height: 127px;
+    position: absolute;
+    width: 100%;
+    max-width: 72px;
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 100%;
+    z-index: 1;
+    transition: 0.4s ease-in-out;
+}
+  .expanse-object {
+    display: none;
+  }
+  .founder-object-3 {
+    transition: 0.4s ease-in-out;
+    left: 0%;
+    bottom: -8%;
+    height: 77px;
+    width: 100%;
+    max-width: 80px;
+  }
+  .footer-object-2 {
+    transition: 0.4s ease-in-out;
+    right: 2%;
+    top: 21%;
+    height: 131px;
+    position: absolute;
+    width: 100%;
+    max-width: 70px;
+    z-index: 1;
+  }
+  .founder-object-1 {
+    left: 5%;
+    top: 7%;
+    height: 54px;
+    max-width: 60px;
+    z-index: 1;
+  }
+  .founder-object-2 {
+    right: 0%;
+    top: 10%;
+    height: 60px;
+    width: 100%;
+    max-width: 110px;
+  }
+  .special-heading {
+    width: 54%;
+    margin: 0 auto;
   }
   .service-cta {
     background-size: 450px;
@@ -163,10 +402,10 @@ a {
   }
 }
 @media only screen and (max-width: 375.5px) {
-  .glob-cta {
+  /* .glob-cta {
     background-size: 430px;
     background-position: 0 282px;
-  }
+  } */
   .service-cta {
     background-size: 450px;
     background-position: 100% 390px;

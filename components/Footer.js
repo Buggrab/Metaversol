@@ -6,6 +6,9 @@ export default function Footer() {
   return (
     <>
       <section className='bg-blue-10 lg:pt-40 md:pt-32 pt-24 xl:mt-40 lg:mt-32 md:mt-24 mt-8' >
+        <div className='footer-object-2'>
+          <img src='/meta/Metaversol Icon_LightPurple_OK 3.png' alt='Metaversol Icon_LightPurple_OK 3' />
+        </div>
         <div className='max-w-7xl mx-auto px-4  lg:pb-36 md:pb-20 pb-16'>
 
           <div className="grid grid-cols-12 lg:gap-16 gap-4 items-center mb-8">
@@ -34,7 +37,7 @@ export default function Footer() {
           <div className='grid grid-cols-12 lg:gap-16 gap-4'>
             <div className='md:col-span-5 col-span-12'>
               <a href="#">
-                <img alt="" 
+                <img alt=""
                   className="xl:h-20 lg:h-16 md:h-12 h-12  w-auto mb-4"
                   src="/assets/images/MetaversolLogo_White.png"
                 />
