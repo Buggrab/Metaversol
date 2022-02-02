@@ -7,9 +7,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
     { name: 'SERVICES', href: '/demo/Metaversol/services.html' },
-    { name: 'PASS', href: '/' },
-    { name: 'TEAM', href: '/' },
-    { name: 'ROADMAP', href: '/' },
+    { name: 'PASS', href: '/demo/Metaversol/metaversol-pass.html' },
+    { name: 'TEAM', href: '/demo/Metaversol/team.html' },
+    { name: 'ROADMAP', href: '/demo/Metaversol/roadmap.html' },
 ]
 
 export default function Example() {

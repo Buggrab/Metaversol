@@ -28,6 +28,26 @@ section {
   max-width: 190px;
   z-index: 1;
 }
+.top-star-object-pass {
+  transition: 0.4s ease-in-out;
+  right: 0%;
+  top:0px;
+  height: 205px;
+  position: absolute;
+  width: 100%;
+  max-width: 190px;
+  z-index: 1;
+}
+.top-star-object-pass-1 {
+  transition: 0.4s ease-in-out;
+  right: -5%;
+  top:0px;
+  height: 205px;
+  position: absolute;
+  width: 100%;
+  max-width: 190px;
+  z-index: 1;
+}
 .top-star-object-service{
   transition: 0.4s ease-in-out;
   right: 16%;
@@ -46,6 +66,26 @@ section {
   position: absolute;
   width: 100%;
   max-width: 190px;
+  z-index: 1;
+}
+.expanse-object-1-team {
+  transition: 0.4s ease-in-out;
+  right: 10%;
+  top: 33%;
+  height: 108px;
+  position: absolute;
+  width: 100%;
+  max-width: 190px;
+  z-index: -1;
+}
+.expanse-object-2-team {
+  transition: 0.4s ease-in-out;
+  left: 10%;
+  top: 22%;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  max-width: 120px;
   z-index: 1;
 }
 .expanse-object-services {
@@ -70,8 +110,18 @@ section {
 }
 .expanse-object-services-3 {
   transition: 0.4s ease-in-out;
+  bottom: 45%;
   left: 0%;
-  top: 15%;
+  position: absolute;
+  width: 100%;
+  max-width: 250px;
+  height: 190px;
+  z-index: 1;
+}
+.expanse-object-roadmap-3 {
+  transition: 0.4s ease-in-out;
+  left: -10%;
+  top: 10%;
   position: absolute;
   width: 100%;
   max-width: 250px;
@@ -140,6 +190,17 @@ section {
   z-index: 1;
   transition: 0.4s ease-in-out;
 }
+.bottom-star-object-roadmap {
+  height: 127px;
+  position: absolute;
+  width: 100%;
+  max-width: 165px;
+  transform: translate(-50%, -50%);
+  left: 30%;
+  bottom: -20%;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
 .bottom-star-object-service {
   height: 127px;
   position: absolute;
@@ -162,6 +223,14 @@ section {
   max-width: 250px;
 }
 .expanse-object-mini {
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 10%;
+  top: 28%;
+  z-index: 1;
+}
+.expanse-object-mini-pass {
   transition: 0.4s ease-in-out;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -288,6 +357,21 @@ a {
     background-size: 100%;
     background-position: 100% 235px;
   }
+  .top-star-object-pass-1 {
+    transition: 0.4s ease-in-out;
+    right: 0%;
+    top:0px;
+    height: 205px;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    z-index: 1;
+  }
+  .expanse-object-roadmap-3 {
+    left: -5%;
+    top: 10%;
+  }
+  
 }
 @media only screen and (max-width: 768.5px) {
   .top-star-object {
@@ -298,6 +382,25 @@ a {
     width: 100%;
     max-width: 100px;
   }
+  .top-star-object-pass {
+    transition: 0.4s ease-in-out;
+    right: 5%;
+    top: 0%;
+    height: 95px;
+    width: 100%;
+    max-width: 70px;
+  }
+  .top-star-object-pass-1 {
+    transition: 0.4s ease-in-out;
+    right: 0%;
+    top:-20%;
+    height: 205px;
+    position: absolute;
+    width: 100%;
+    max-width: 90px;
+    z-index: 1;
+  }
+
   .top-star-object-service {
     transition: 0.4s ease-in-out;
     right: 14%;
@@ -327,6 +430,17 @@ a {
     z-index: 1;
     transition: 0.4s ease-in-out;
   }
+  .bottom-star-object-roadmap {
+    height: 127px;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    bottom: -10%;
+    z-index: 1;
+    transition: 0.4s ease-in-out;
+  }
   .bottom-star-object-service {
     height: 127px;
     position: absolute;
@@ -349,6 +463,16 @@ a {
     max-width: 115px;
   }
   .expanse-object-mini {
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 12%;
+    top: 12%;
+    z-index: 1;
+    width: 100%;
+    max-width: 80px;
+  }
+  .expanse-object-mini-pass {
     transition: 0.4s ease-in-out;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -401,6 +525,15 @@ a {
   .expanse-object-1{
     top:-10%
   }
+  .expanse-object-1-team{
+    top:18%;
+    right: 0px;
+    width: 150px;
+  }
+  .expanse-object-2-team{
+    top:3%;
+    width: 80px;
+  }
   .expanse-object-services{
     top:-10%;
     width:0px;
@@ -412,6 +545,13 @@ a {
   .expanse-object-services-3{
     top:0%;
     width: 120px;
+  }
+
+  .expanse-object-roadmap-3 {
+    left: 5%;
+    top: 10%;
+    width: 150px;
+
   }
 }
 @media only screen and (max-width: 525.5px) {
@@ -510,6 +650,15 @@ a {
   .expanse-object-1{
     top:-10%
   }
+  .expanse-object-1-team{
+    top:10%;
+    right: 0px;
+    width: 100px;
+  }
+  .expanse-object-2-team{
+    top:-1%;
+    width: 50px;
+  }
   .expanse-object-services{
     top:-10%;
     width:0px;
@@ -523,7 +672,20 @@ a {
     top:-6%;
     width: 120px;
   }
-
+  .expanse-object-roadmap-3{
+    top:-6%;
+    width: 120px;
+  }
+  .expanse-object-mini-pass {
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 12%;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    max-width: 80px;
+  }
 }
 @media only screen and (max-width: 375.5px) {
   /* .glob-cta {
