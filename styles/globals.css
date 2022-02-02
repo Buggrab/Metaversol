@@ -28,6 +28,16 @@ section {
   max-width: 190px;
   z-index: 1;
 }
+.top-star-object-service{
+  transition: 0.4s ease-in-out;
+  right: 16%;
+  top: -3%;
+  height: 205px;
+  position: absolute;
+  width: 100%;
+  max-width: 190px;
+  z-index: 1;
+}
 .expanse-object-1 {
   transition: 0.4s ease-in-out;
   right: 5%;
@@ -36,6 +46,36 @@ section {
   position: absolute;
   width: 100%;
   max-width: 190px;
+  z-index: 1;
+}
+.expanse-object-services {
+  transition: 0.4s ease-in-out;
+  right: 5%;
+  top: 21%;
+  position: absolute;
+  width: 100%;
+  max-width: 120px;
+  height: 70px;
+  z-index: 1;
+}
+.expanse-object-services-2 {
+  transition: 0.4s ease-in-out;
+  right: 20%;
+  top: 20%;
+  position: absolute;
+  width: 100%;
+  max-width: 120px;
+  height: 70px;
+  z-index: 1;
+}
+.expanse-object-services-3 {
+  transition: 0.4s ease-in-out;
+  left: 0%;
+  top: 15%;
+  position: absolute;
+  width: 100%;
+  max-width: 250px;
+  height: 190px;
   z-index: 1;
 }
 .create-world-object-1 {
@@ -97,6 +137,17 @@ section {
   transform: translate(-50%, -50%);
   left: 30%;
   top: 70%;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
+.bottom-star-object-service {
+  height: 127px;
+  position: absolute;
+  width: 100%;
+  max-width: 165px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
   z-index: 1;
   transition: 0.4s ease-in-out;
 }
@@ -247,6 +298,14 @@ a {
     width: 100%;
     max-width: 100px;
   }
+  .top-star-object-service {
+    transition: 0.4s ease-in-out;
+    right: 14%;
+    top: 0%;
+    height: 95px;
+    width: 100%;
+    max-width: 100px;
+  }
   .create-world-object-1 {
     transition: 0.4s ease-in-out;
     right: 6%;
@@ -265,6 +324,17 @@ a {
     transform: translate(-50%, -50%);
     left: 30%;
     top: 70%;
+    z-index: 1;
+    transition: 0.4s ease-in-out;
+  }
+  .bottom-star-object-service {
+    height: 127px;
+    position: absolute;
+    width: 100%;
+    max-width: 111px;
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 90%;
     z-index: 1;
     transition: 0.4s ease-in-out;
   }
@@ -328,6 +398,21 @@ a {
     background-size: 100%;
     background-position: 100% 285px;
   }
+  .expanse-object-1{
+    top:-10%
+  }
+  .expanse-object-services{
+    top:-10%;
+    width:0px;
+  }
+  .expanse-object-services-2{
+    top:-10%;
+    width:0px;
+  }
+  .expanse-object-services-3{
+    top:0%;
+    width: 120px;
+  }
 }
 @media only screen and (max-width: 525.5px) {
   .founder-cards img {
@@ -342,7 +427,26 @@ a {
     width: 100%;
     max-width: 90px;
   }
+  .top-star-object-service {
+    transition: 0.4s ease-in-out;
+    right: 6%;
+    top: -5%;
+    height: 89px;
+    width: 100%;
+    max-width: 90px;
+  }
   .bottom-star-object {
+    height: 127px;
+    position: absolute;
+    width: 100%;
+    max-width: 72px;
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 100%;
+    z-index: 1;
+    transition: 0.4s ease-in-out;
+  }
+  .bottom-star-object-service {
     height: 127px;
     position: absolute;
     width: 100%;
@@ -403,6 +507,23 @@ a {
   .metaversol-pass-page {
     background-size: cover;
   }
+  .expanse-object-1{
+    top:-10%
+  }
+  .expanse-object-services{
+    top:-10%;
+    width:0px;
+
+  }
+  .expanse-object-services-2{
+    top:-10%;
+    width:0px;
+  }
+  .expanse-object-services-3{
+    top:-6%;
+    width: 120px;
+  }
+
 }
 @media only screen and (max-width: 375.5px) {
   /* .glob-cta {

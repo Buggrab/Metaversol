@@ -45,7 +45,6 @@ export default function Home() {
                   The Expanse is comprised entirely of the projects and businesses that we have brought onboard  our platform.
                 </p>
                </div>
-
                 <div>
                   <img src='/assets/images/ChainCta.png' alt='ChainCta' />
                 </div>
@@ -76,7 +75,7 @@ export default function Home() {
                   This is more than a social experience
                 </h4>
                 <p className='text-white xl:text-xl lg:text-xl md:text-xl text-md lg:mb-10 mb-6'>
-                  It isn`t just a place to play games or look at your NFTs.
+                  It isnt just a place to play games or look at your NFTs.
                   The Expanse adds layers of experience and opportunities to the real world.
                 </p>
                 <p className='text-white xl:text-xl lg:text-xl md:text-xl text-md lg:mb-10 mb-6'>
@@ -105,7 +104,7 @@ export default function Home() {
             <div>
               <div className='max-w-xl text-left w-full '>
                 <h4 className='xl:text-3xl text-2xl  text-purple font-bold mb-6'>
-                  Reality is a construct. Here`s your chance to build it.
+                  Reality is a construct. Heres your chance to build it.
                 </h4>
                 <p className='text-white xl:text-xl lg:text-xl md:text-xl text-md lg:mb-10 mb-6'>
                   Design your projects world. Create a massive steampunk metropolis, rustic countryside towns, or magnificent ivory towers; the possibilities are endless
