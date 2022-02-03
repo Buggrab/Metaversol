@@ -173,7 +173,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12'>
+      {/* <section className='xl:pt-40 lg:pt-32 md:pt-24 pt-12'>
         <div className='founder-object-2'>
           <img src='/meta/planet-5.png' alt='planet-5' />
         </div>
@@ -214,7 +214,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </div>
   )

@@ -83,7 +83,7 @@ export default function Services() {
                         <div style={{ flex: '6' }}>
                             <div className='flex md:text-left text-center justify-items-center md:flex-row flex-col lg:gap-8 gap-4'>
                                 <div className='flex md:justify-start justify-center items-start'>
-                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/mediaIcon.png' alt=""></img>
+                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/4-Coin 3 (1).png' alt=""></img>
                                 </div>
                                 <div>
                                     <h4 className='xl:text-2xl text-xl  text-purple font-bold md:mb-6 mb-3'>
@@ -100,7 +100,7 @@ export default function Services() {
                         <div style={{ flex: '6' }}>
                             <div className='flex md:text-left text-center justify-items-center md:flex-row flex-col lg:gap-8 gap-4'>
                                 <div className='flex md:justify-start justify-center items-start'>
-                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/mediaIcon.png' alt=""></img>
+                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/4-Coin 1 (1).png' alt=""></img>
                                 </div>
                                 <div>
                                     <h4 className='xl:text-2xl text-xl  text-purple font-bold md:mb-6 mb-3'>
@@ -115,7 +115,7 @@ export default function Services() {
                         <div style={{ flex: '6' }}>
                             <div className='flex md:text-left text-center justify-items-center md:flex-row flex-col lg:gap-8 gap-4'>
                                 <div className='flex md:justify-start justify-center items-start'>
-                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/mediaIcon.png' alt=""></img>
+                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/4-Coin 4 (1).png' alt=""></img>
                                 </div>
                                 <div>
                                     <h4 className='xl:text-2xl text-xl  text-purple font-bold md:mb-6 mb-3'>
@@ -133,7 +133,7 @@ export default function Services() {
                         <div style={{ flex: '6' }}>
                             <div className='flex md:text-left text-center justify-items-center md:flex-row flex-col lg:gap-8 gap-4'>
                                 <div className='flex md:justify-start justify-center items-start'>
-                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/mediaIcon.png' alt=""></img>
+                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/4-Coin 5 (1).png' alt=""></img>
                                 </div>
                                 <div>
                                     <h4 className='xl:text-2xl text-xl  text-purple font-bold md:mb-6 mb-3'>
@@ -148,7 +148,7 @@ export default function Services() {
                         <div style={{ flex: '6' }}>
                             <div className='flex md:text-left text-center justify-items-center md:flex-row flex-col lg:gap-8 gap-4'>
                                 <div className='flex md:justify-start justify-center items-start'>
-                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/mediaIcon.png' alt=""></img>
+                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/4-Coin 6 (1).png' alt=""></img>
                                 </div>
                                 <div>
                                     <h4 className='xl:text-2xl text-xl  text-purple font-bold md:mb-6 mb-3'>
@@ -166,7 +166,7 @@ export default function Services() {
                         <div style={{ flex: '6' }}>
                             <div className='flex md:text-left text-center justify-items-center md:flex-row flex-col lg:gap-8 gap-4'>
                                 <div className='flex md:justify-start justify-center items-start'>
-                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/mediaIcon.png' alt=""></img>
+                                    <img className='object-none md:w-media-w-img-2 w-media-w-img-1 md:min-w-media-img-2 min-w-media-img-1' src='/assets/images/4-Coin 7 (1).png' alt=""></img>
                                 </div>
                                 <div>
                                     <h4 className='xl:text-2xl text-xl  text-purple font-bold md:mb-6 mb-3'>
